@@ -1,3 +1,14 @@
+/* Ejemplo de CSS básico para la animación */
+body.not-loaded .flowers {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+body .flowers {
+  opacity: 1;
+}
+
+
 *,
 *::after,
 *::before {
